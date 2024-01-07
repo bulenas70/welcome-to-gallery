@@ -1,0 +1,108 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  background-image: url("1.jpg");
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.a {
+  font-size: 2em;
+  font-family: fantasy;
+  text-align: center;
+  letter-spacing: 5px;
+  color: blue;
+
+}
+
+.intro {
+  background-image: url("2.jpg");
+}
+
+.title {
+  background-image: url("3.jpg");
+}
+
+.center {
+  background-image: url("4.jpg");
+}
+
+.description {
+  background-image: url("5.jpg");
+}
+
+.cta {
+  background-image: url("6.jpg");
+}
+
+.footer {
+  background-image: url("7.jpg");
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    background-size: 500px 100vh;
+  }
+
+  .intro {
+    background-size: 500px 100vh;
+  }
+
+  .title {
+    background-size: 500px 100vh;
+  }
+
+  .center {
+    background-size: 500px 100vh;
+  }
+
+  .description {
+    background-size: 500px 100vh;
+  }
+
+  .cta {
+    background-size: 500px 100vh;
+  }
+
+  .footer {
+    background-size: 500px 100vh;
+  }
+
+  .logo {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .a {
+    letter-spacing: 3px;
+    color: aqua;
+    margin: 2px 2px;
+    padding: 0;
+  }
+}
